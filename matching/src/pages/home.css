@@ -1,0 +1,74 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: white;
+}
+
+/* Container for the whole page */
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Background image styling */
+.background {
+    width: 100%;
+    height: 100%;
+    background-image: url("/Users/noahmasoud/hack/matching/matching/src/309cec8eeb160da5fcede042c934d7d0.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* Container for the buttons and website name */
+.button-container {
+    position: absolute;
+    top: 100px;
+    /* Adjust this value for spacing from the top */
+    right: 200px;
+    /* Adjust this value for spacing from the right */
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Semi-transparent black */
+    padding: 50px;
+    /* Adds inner spacing */
+    border-radius: 20px;
+    /* Rounded corners */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    /* Adds space between elements */
+    color: white;
+
+}
+
+/* Website name styling */
+.website-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Shared button styling for login and signup buttons */
+.login-btn,
+.signup-btn {
+    width: 190px;
+    padding: 15px;
+    font-size: 1rem;
+    color: white;
+    background-color: #800000;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover,
+.signup-btn:hover {
+    background-color: #a00000;
+}
