@@ -1,17 +1,19 @@
-// import React from "react";
-import "./App.css";
+// src/App.js
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Home from './pages/home'; // Import Home component
 
 const App = () => {
   return (
-    <div className="container">
-      <div className="background">
-        <div className="button-container">
-          <div className="website-name">CatConnect</div>
-          <button className="login-btn">Login</button>
-          <button className="signup-btn">Sign Up</button>
-        </div>
-      </div>
-    </div>
+    <Router>
+      <nav>
+        <Link to="/">Home</Link>
+      </nav>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
   );
 };
 
