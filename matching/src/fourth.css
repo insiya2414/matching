@@ -1,0 +1,109 @@
+/* General styles */
+body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+     background-color: #f9f9f9;
+   }
+   
+   .container {
+     max-width: 900px;
+     margin: 0 auto;
+     padding: 20px;
+   }
+   
+   /* Header */
+   .header {
+     background-color: #d4c39d;
+     padding: 10px;
+     text-align: center;
+   }
+   
+   .header h1 {
+     margin: 0;
+     font-size: 24px;
+     color: #4f3c1f;
+   }
+   
+   /* Content */
+   .content {
+     background: #fff;
+     padding: 20px;
+     border-radius: 8px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   }
+   
+   .content h2 {
+     font-size: 28px;
+     margin-bottom: 10px;
+   }
+   
+   .content p {
+     font-size: 16px;
+     color: #555;
+   }
+   
+   /* Interests Section */
+   .interests-section {
+     margin-top: 20px;
+   }
+   
+   .card {
+     background-color: #f5f5f5;
+     padding: 15px;
+     border-radius: 8px;
+     margin-bottom: 20px;
+   }
+   
+   .card h3 {
+     font-size: 20px;
+     margin-bottom: 10px;
+   }
+   
+   .tags {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 10px;
+   }
+   
+   .tags span {
+     background-color: #fff;
+     border: 1px solid #d4c39d;
+     border-radius: 20px;
+     padding: 5px 15px;
+     font-size: 14px;
+     color: #4f3c1f;
+     cursor: default;
+   }
+   
+   .view-more {
+     background-color: #d4c39d;
+     border: none;
+     border-radius: 20px;
+     padding: 5px 15px;
+     font-size: 14px;
+     color: #fff;
+     cursor: pointer;
+   }
+   
+   .view-more:hover {
+     background-color: #b89e6f;
+   }
+   
+   /* Continue Button */
+   .continue-button {
+     background-color: #4f3c1f;
+     color: #fff;
+     border: none;
+     border-radius: 20px;
+     padding: 10px 20px;
+     font-size: 16px;
+     cursor: pointer;
+     display: block;
+     margin: 0 auto;
+   }
+   
+   .continue-button:hover {
+     background-color: #3c2d14;
+   }
+   
